@@ -1,0 +1,51 @@
+body
+{
+    background-color: #1b1b1b;
+}
+fieldset
+{
+    display: flex;
+    margin: auto;
+    width: 30%;
+    margin-top: 200px;
+    border-radius: 10%;
+    justify-content: center;
+    background-color: rgba(255, 166, 0, 0.26);
+    padding: 30px;
+    text-align: center;
+    box-shadow: 5px 5px 15px rgba(255, 166, 0, 0.089);
+}
+input{
+    border-radius: 5px;
+    width: 300px;
+    height: 25px;
+    margin-bottom: 20px;
+}
+button{
+    justify-content: center;
+    width: 100px;
+    border: none;
+    border-radius: 50px;
+    background-color: rgba(255, 166, 0, 0.781);
+    padding: 10px;
+    margin-top: 10px;
+}
+input[type="checkbox"]
+{
+    padding-right: 0px;
+    text-align: left;
+}
+label{
+    color: white;
+    font-weight: bold;
+    font-family: tahoma;
+}
+input[type="email"]
+{
+    margin-left: 30px;
+    
+}
+a{
+    color:rgba(255, 255, 0, 0.836);
+    text-transform: uppercase;
+}
