@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: rgba(0, 0, 0, 0.623);
+}
+.header-section
+{
+  background-color: hsla(0, 0%, 0%, 0.151);
+  width: 75%;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  margin-bottom: 50px;
+  height: 10px;
+  color: white;
+}
+.header-left-section{
+    float: right;
+}
+a{
+    padding-right: 10px;
+    color: rgba(255, 255, 255, 0.856);
+    text-decoration: none;
+    transition: color 0.15s;
+}
+a:hover{
+    background-color: blanchedalmond;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+img
+{
+    width: 300px;
+    border-radius: 200px;
+}
+img:hover{
+    opacity: 0.5;
+    cursor: pointer;
+    
+}
+.profile
+{
+    display: flex;
+    color: rgba(255, 255, 255, 0.726);
+    flex-direction: row;
+    gap: 20px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.288);
+    width: 65%;
+    padding: 20px;
+    border: none;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.445);
+    margin-bottom: 110px;
+}
+.profile-details{
+   font-family: Verdana;
+   font-size: 15px;
+   text-align: left;
+   padding-top: 20px;
+   padding-top: 50px;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-family: tahoma;
+}
+.codding_languages
+{
+ display: flex;
+ flex-direction: row;
+ gap: 100px;
+ color: white;
+ padding: 20px;
+ background-color: rgba(160, 81, 45, 0.26);
+}
+.bio{
+    width: 55%;
+}
+#projects
+{
+    text-decoration: underline;
+
+}
+#projects:hover{
+    background-color: rgba(0, 0, 255, 0.699);
+    opacity: 0.4;
+    color:rgba(255, 0, 0, 0.979);
+    color: orange;
+}
+button{
+    padding: 5px;
+    border-radius: 5px;
+    border:none;
+    color: black;
+    background-color: antiquewhite;
+}
+button:hover{
+    cursor: pointer;
+    opacity: 0.4;
+}
+
+
